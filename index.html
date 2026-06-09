@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Interactiva</title>
+</head>
+<body>
+
+  <h1 id="titulo">Hola mundo 🚀</h1>
+
+  <button onclick="cambiarTexto()">Haz clic aquí</button>
+
+  <p id="mensaje">Esperando interacción...</p>
+
+  <script>
+    function cambiarTexto() {
+      document.getElementById("titulo").innerText = "¡Cambió el texto! 🔥";
+      document.getElementById("mensaje").innerText = "Esto es interacción con JavaScript";
+    }
+  </script>
+
+</body>
+</html>
